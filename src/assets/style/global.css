@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(to bottom, #1D539E 400px, #ffffff 200px);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #1E2338;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.title {
+    color: #ffffff;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 48px;
+    justify-content: center;
+}
+
+.title p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 500px;
+}
+
+.planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #1E2338;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    width: 1000px;
+}
+
+.boxPlanos {
+    background-color: #ffffff;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxPlanos h3,
+.boxPlanos h2,
+.boxPlanos p,
+.boxPlanos h4 {
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.boxH3 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    padding-left: 10px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+.H3Principal {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.boxH3Principal {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    background-color: #FFCC29;
+}
+
+.btnPrincipal {
+    padding: 10px 20px;
+    background-color: #1D539E;
+    color: #ffffff;
+    border: 1px solid #1D539E;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: auto;
+}
+
+button {
+    padding: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #1D539E;
+    border: 1px solid #1D539E;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: auto;
+    width: 250px; 
+    height: 40px; 
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #1D539E;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(29, 83, 158, 0.5);
+}
+
+.btn {
+    align-items: center;
+}
