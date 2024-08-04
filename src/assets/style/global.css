@@ -1,27 +1,26 @@
 body {
-    background: linear-gradient(to bottom, #1D539E 400px, #ffffff 200px);
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     color: #1E2338;
 }
 
 header {
+    background-color: #1D539E;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     width: 100%;
-    max-width: 1200px;
-    margin: 50px auto;
+    padding: 100px;
 }
 
 .title {
     color: #ffffff;
+    position: relative;
+    top: -30px;
 }
 
 .title h1 {
     text-align: center;
     font-size: 48px;
-    justify-content: center;
 }
 
 .title p {
@@ -36,7 +35,10 @@ header {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #1E2338;
+    height: 400px;
+    color: #828799;
+    position: relative;
+    top: -170px
 }
 
 .box {
@@ -46,59 +48,103 @@ header {
     justify-content: center;
     width: 1000px;
 }
+.line {
+    background-color: #EEEEEE;
+    height: 1px;
+    width: 80%;
+}
 
 .boxPlanos {
     background-color: #ffffff;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    justify-content: center;
     border-radius: 10px;
-    padding: 0;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    position: relative;
 }
 
-.boxPlanos h3,
-.boxPlanos h2,
-.boxPlanos p,
-.boxPlanos h4 {
+.boxPlanos button {
+    border-radius: 7px;
+}
+
+button {
+    background-color: #fff;
+    font-size: 16px;
+    color: #1D539E;
+    border: 1px solid #1D539E;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 250px; 
+    height: 40px;
+    margin-top: 100px;
+    align-self: center; /* Centraliza o botão */
+    position:absolute;
+    bottom: 30px;
+}
+.boxPlanosbutton:hover {
+    background-color: #1D539E;
+    color: #ffffff;
+}
+
+.boxPlanos h3 {
+    font-size: 20px;
     margin: 10px 0;
     margin-left: 20px;
+    color: #1E2338;
+}
+
+.boxPlanos h2 {
+    margin: 10px 0;
+    margin-left: 20px;
+    color: #1E2338;
+}
+
+.boxPlanos p {
+    margin: 5px 0;
+    margin-left: 20px;
+}
+
+.zeros {
+    font-size: 20px;
+}
+
+.mes {
+    font-size: 20px;
+    color: #828799;
+}
+
+.incluse {
+    display: flex;
+    flex-direction: column;
+    min-height: 35%;
 }
 
 .boxH3 {
     width: 100%;
     border-radius: 10px 10px 0 0;
-    padding-left: 10px;
     padding-top: 0px;
     margin: 0;
 }
 
 .H3Principal {
-    padding-left: 10px;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
+    position: relative;
 }
 
 .boxH3Principal {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     border-radius: 10px 10px 0 0;
-    margin: 0;
     background-color: #FFCC29;
 }
 
-.btnPrincipal {
-    padding: 10px 20px;
-    background-color: #1D539E;
-    color: #ffffff;
-    border: 1px solid #1D539E;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    margin-top: auto;
+i {
+    align-self: center;
 }
 
+/*
 button {
     padding: 10px;
     background-color: #fff;
@@ -111,6 +157,16 @@ button {
     margin-top: auto;
     width: 250px; 
     height: 40px; 
+}
+    */
+.btnPrincipal {
+    background-color: #1D539E;
+    color: #ffffff;
+    border: 1px solid #1D539E;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: auto;
 }
 
 button:hover {
@@ -125,4 +181,8 @@ button:focus {
 
 .btn {
     align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
 }
