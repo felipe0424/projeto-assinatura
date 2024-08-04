@@ -1,6 +1,6 @@
 <body>
     <div align="center">
-        <a href="https://felipe0424.github.io/projeto-galaxia" target="_blank">
+        <a href="https://felipe0424.github.io/projeto-assinatura/" target="_blank">
         <img src="src/assets/images/Thumbnail.svg" alt="Projeto Página da Assinatura" width="auto">
         </a>
     </div>
