@@ -1,13 +1,13 @@
 <body>
     <div align="center">
         <a href="https://felipe0424.github.io/projeto-galaxia" target="_blank">
-        <img src="src/assets/images/galaxia.svg" alt="galaxia" width="auto">
+        <img src="src/assets/images/Thumbnail.svg" alt="Projeto Página da Assinatura" width="auto">
         </a>
     </div>
 </body>
 
 # :rocket: Sobre o Projeto
-O projeto "As Maiores Galáxias" de Nível 3 visa aperfeiçoar a usabilidade de HTML5, CSS3 e a gestão de projetos, enfatizando a organização das informações em divs e a divisão de blocos, com títulos e descrições claras.
+O projeto "Página de Assinatura" de Nível 2 visa aperfeiçoar a usabilidade de HTML5, CSS3 e a gestão de projetos, enfatizando a organização das informações em divs e a divisão de blocos, com títulos e descrições claras.
 
 ### Objetivos
 HTML5: Utilização das novas tags semânticas para melhorar a estrutura e acessibilidade do conteúdo.
